@@ -146,8 +146,6 @@ cat payload | /opt/protostar/bin/stack5
 * Shellcode `/bin/sh` (23 byte). ([shell-storm.org][5])
 * Shellcode `setreuid(0,0) + /bin/sh` (33 byte) per SUID. ([Exploit Database][7])
 
-Se vuoi, posso aiutarti a ricavare **l’indirizzo esatto** dal tuo gdb (incollami l’output di `x/8wx $esp` al breakpoint sul `ret`) e ti preparo il payload con il `ret_addr` già corretto per la tua VM. 💪🏻
-
 [1]: https://exploit.education/protostar/stack-five/ "Stack Five :: Andrew Griffiths' Exploit Education"
 [2]: https://exploit.education/protostar/?utm_source=chatgpt.com "Protostar :: Andrew Griffiths' Exploit Education"
 [3]: https://dev.to/hextrace/jump-into-local-shellcode-protostar-stack5-57mb "Jump into shellcode (protostar - stack5) - DEV Community"
