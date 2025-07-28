@@ -1,0 +1,32 @@
+Esercizio,Vulnerabilità,Mitigazioni
+flag00,World-writable home directory with .bashrc hijack,Set correct permissions on home directories and .bashrc
+flag01,World-readable user password file,Restrict file permissions and avoid storing plaintext passwords
+flag02,Writable binary executed via PATH,"Avoid writable directories in PATH, use full paths"
+flag03,Environment variable manipulation (PATH),Sanitize environment variables
+flag04,Setuid wrapper executing user input,"Validate input, avoid shell commands in setuid programs"
+flag05,Cron job writing to world-writable file,"Avoid world-writable files, use secure file ownership"
+flag06,Weak file permissions on script run as root,"Harden permissions, avoid insecure user-owned scripts"
+flag07,Unsafe use of 'getenv' + setuid binary,"Drop privileges early, validate inputs"
+flag08,Script reading input from user and using it insecurely,"Avoid eval, use strict input validation"
+flag09,Race condition in temporary file creation,"Use secure temp file creation (e.g., mkstemp)"
+flag10,Command injection via unsanitized input,"Sanitize inputs, avoid system() with user input"
+flag11,Unsafe PHP script execution with unsanitized input,"Validate inputs, disable dangerous functions"
+flag12,LD_PRELOAD injection on SUID binary,"Use secure environment handling, strip LD_*"
+flag13,Weak key in PHP script encryption,Use strong keys and proper encryption practices
+stack0,Stack buffer overflow (basic),"Use bounds checking, modern compiler protections"
+stack1,Stack buffer overflow with variable overwrite,"Same as above, + stack canary"
+stack2,Stack buffer overflow with function pointer overwrite,"Use DEP, ASLR, canaries"
+stack3,Stack buffer overflow with argument overwrite,"Input validation, stack protection"
+stack4,Stack buffer overflow with saved EIP overwrite,"DEP, ASLR, stack cookies"
+stack5,Stack buffer overflow with shellcode injection,"Non-executable stack, use safe languages"
+stack6,Stack buffer overflow + bruteforce address (ASLR),"ASLR, RELRO, PIE, use FORTIFY_SOURCE"
+plab01,SQL Injection,"Use parameterized queries, ORM"
+plab02,XSS (Reflected),"Escape output, use CSP"
+plab03,Command Injection,"Sanitize inputs, avoid shell exec"
+plab04,File Inclusion,"Validate file paths, disable URL includes"
+plab05,Authentication Bypass,"Use strong session handling, 2FA"
+plab06,CSRF,"Use CSRF tokens, SameSite cookies"
+plab07,XML External Entity (XXE),"Disable DTDs, use secure parsers"
+plab08,Deserialization,"Avoid unserializing untrusted input, use safe formats"
+plab09,Insecure Direct Object Reference (IDOR),Enforce access controls
+plab10,Information Disclosure,"Sanitize error messages, limit debug info"
