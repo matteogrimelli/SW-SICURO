@@ -151,11 +151,7 @@ Se vuoi, posso aiutarti a ricavare **l’indirizzo esatto** dal tuo gdb (incolla
 [1]: https://exploit.education/protostar/stack-five/ "Stack Five :: Andrew Griffiths' Exploit Education"
 [2]: https://exploit.education/protostar/?utm_source=chatgpt.com "Protostar :: Andrew Griffiths' Exploit Education"
 [3]: https://dev.to/hextrace/jump-into-local-shellcode-protostar-stack5-57mb "Jump into shellcode (protostar - stack5) - DEV Community"
-[4]: https://kevindoubleu.github.io/writeups/exploit-education/protostar/stack/stack5/ "
-        
-            Protostar - stack5 - doubleu
-        
-    "
+[4]: https://kevindoubleu.github.io/writeups/exploit-education/protostar/stack/stack5/ "Protostar - stack5 - doubleu"
 [5]: https://shell-storm.org/shellcode/files/shellcode-827.php?utm_source=chatgpt.com "Linux/x86 - execve /bin/sh shellcode - 23 bytes - Shell-Storm.org"
 [6]: https://www.exploit-db.com/exploits/37384?utm_source=chatgpt.com "Linux/x86 - execve(/bin/sh) Shellcode (23 bytes) (1) - Exploit-DB"
 [7]: https://www.exploit-db.com/exploits/13379?utm_source=chatgpt.com "Linux/x86 - setreuid(0,0) + execve(\"/bin/sh\", [\"/bin/sh\", NULL ..."
