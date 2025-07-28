@@ -6,3 +6,4 @@
 - [Hash-Lookup](https://hashes.com/en/decrypt/hash)
 - [Tmux](https://tmuxcheatsheet.com/)
 - [CyberChef](https://gchq.github.io/CyberChef/)
+- [Mitigazioni](Riepilogo_Vulnerabilit__Esercizi.csv)
