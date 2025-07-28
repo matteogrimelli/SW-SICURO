@@ -9,3 +9,4 @@
 - [Mitigazioni](Riepilogo_Vulnerabilit__Esercizi.csv) (potrebbero non corrispondere)
 - [Stack5 Solution3](Stack5-3o.md)
 - [Stack5 Solution4](Stack5-4o.md)
+- [Esercizi-Tutti](Esercizi.md)
